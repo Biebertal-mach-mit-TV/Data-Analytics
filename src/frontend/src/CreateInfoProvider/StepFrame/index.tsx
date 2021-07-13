@@ -1,6 +1,6 @@
 import React from "react";
-import { useStyles } from "./style";
-import { HintButton } from "../../util/HintButton";
+import {useStyles} from "./style";
+import {HintButton} from "../../util/HintButton";
 import Container from "@material-ui/core/Container"
 import Paper from "@material-ui/core/Paper"
 import Grid from "@material-ui/core/Grid"
@@ -31,7 +31,7 @@ export const StepFrame: React.FC<Props> = ({
                         </Grid>
                     </Grid>
                     <Grid item container sm={7} xs={2} justify={"flex-end"}>
-                        <HintButton content={hintContent} />
+                        <HintButton content={hintContent}/>
                     </Grid>
                 </Grid>
                 {children}
